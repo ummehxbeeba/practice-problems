@@ -4,4 +4,5 @@ def right_aligned_alphabet_triangle(n):
         for j in range(i):
             print(chr(65+j),end="")
         print()    
-right_aligned_alphabet_triangle(6)
+n=7
+right_aligned_alphabet_triangle(n)
